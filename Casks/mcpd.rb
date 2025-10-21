@@ -4,7 +4,7 @@ cask "mcpd" do
   desc "A tool to declaratively manage Model Context Protocol (MCP) servers, providing a consistent interface to define and run tools across environments, from local development to containerized cloud deployments.
 "
   homepage "https://github.com/mozilla-ai/mcpd"
-  version "0.0.9"
+  version "0.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "mcpd" do
   on_macos do
     on_intel do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Darwin_x86_64.tar.gz"
-      sha256 "8418b9e4308daaff429d48a2affb844fd8306bb9ac9f28e467185e6d6dc86445"
+      sha256 "3c1adad99ac6d3261fc1fe22f0ef988704fe026566fbdd23798b4dd877341600"
     end
     on_arm do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Darwin_arm64.tar.gz"
-      sha256 "a94063ec83784b082c2802fbe207b2a0ebdfad8d97cd4c783bad068b570b7a6c"
+      sha256 "99e05aebc2381be80ad823f3b52e8697f7d286dec704fbfc9bf8264fc24edb24"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Linux_x86_64.tar.gz"
-      sha256 "ff9dbe5549feb1d6fe6b0a73af3aa9968fdda6a6a0dfc39b72196d70e66f3bd5"
+      sha256 "0d8c4fa347ef8669b5aeb5de442baf56b5f028e5c27c4fc9ff2355d267f69fa3"
     end
     on_arm do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Linux_arm64.tar.gz"
-      sha256 "7c88da5860159a5931e8487b6cb2411ebf3be80a8396a7cf40c8c424a37e879d"
+      sha256 "f8ffaad068867f680dd039e67f357018efc0816211fbf017bc0046762ee29089"
     end
   end
 
