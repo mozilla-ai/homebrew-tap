@@ -15,22 +15,22 @@ cask "mcpd" do
   on_macos do
     on_intel do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Darwin_x86_64.tar.gz"
-      sha256 "b3af6e70a30b0dd1d79994d3f5471dc3cbcd83242d050999fe5d4817bd79ec7e"
+      sha256 "0d4126471767ff4b578c6ff53a258cfba81ff84fdfc8b6790604a3490ee9c9a2"
     end
     on_arm do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Darwin_arm64.tar.gz"
-      sha256 "944b101e43d4994d63df12f2dce2cc9f85a8672afe45f51b33aae917be1c2b3a"
+      sha256 "fb9f3e585c98bd77b5025fdf7de53fa933d764d6ea71f6ae625cd7d4f4f01d49"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Linux_x86_64.tar.gz"
-      sha256 "081c642a73623f9da6e7ca103752fbb58a949ac60c9ba8807232ce4b0665646e"
+      sha256 "621b548f0a86cb794d0e8f3846896a6fd7f6dda057d0f1d4d13db9f3eb27352c"
     end
     on_arm do
       url "https://github.com/mozilla-ai/mcpd/releases/download/v#{version}/mcpd_Linux_arm64.tar.gz"
-      sha256 "881c96e2c440c2173a2ccc4941adad0a7ec94945d6112ee0df7d041be5240891"
+      sha256 "d9ff6034c323abe4a7f060182ea8b3edc6d1607c617ccad6ed9592d7953d0e21"
     end
   end
 
