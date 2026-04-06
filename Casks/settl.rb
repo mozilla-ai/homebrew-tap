@@ -2,7 +2,7 @@ cask "settl" do
   name "settl"
   desc "Terminal hex-based settlement game with LLM players"
   homepage "https://github.com/mozilla-ai/settl"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -10,26 +10,26 @@ cask "settl" do
 
   on_macos do
     on_intel do
-      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.1/settl-darwin-amd64.tar.gz"
-      sha256 "c791161dc00463856b5c44331728b1339c3b39144a01ecfbe42c973581502998"
+      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.2/settl-darwin-amd64.tar.gz"
+      sha256 "baf61335130a53f8581183f62a18f4d8842d5782c758d1d59364a6459b90b70e"
       binary "settl-darwin-amd64", target: "settl"
     end
     on_arm do
-      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.1/settl-darwin-arm64.tar.gz"
-      sha256 "f3daba2698ede0c29a9289992f930776aa17a74a605da5bf237958fee342895c"
+      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.2/settl-darwin-arm64.tar.gz"
+      sha256 "53a17eb5875bb42207591c5c9b34dcb35d9f6b781eaafa8c054347bf85768a5a"
       binary "settl-darwin-arm64", target: "settl"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.1/settl-linux-amd64.tar.gz"
-      sha256 "d6807328c1a0f910565e7c98830d06eaeeaa56c477a773bbe23edbb4ac37bfba"
+      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.2/settl-linux-amd64.tar.gz"
+      sha256 "c01e980dcd2b6e68e2033623ca2ac858cc9247f46add58c349a9abb1b9209c11"
       binary "settl-linux-amd64", target: "settl"
     end
     on_arm do
-      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.1/settl-linux-arm64.tar.gz"
-      sha256 "bd8f98c9d2734cbf1de19cca70adc03755b28c96471889cc7dd09665ccb93aff"
+      url "https://github.com/mozilla-ai/settl/releases/download/v0.1.2/settl-linux-arm64.tar.gz"
+      sha256 "b02f7c46b529fb5717690053a25450f99f516945feaf0bc0a760aa22861e11ba"
       binary "settl-linux-arm64", target: "settl"
     end
   end
