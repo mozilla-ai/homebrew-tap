@@ -1,25 +1,25 @@
 cask "cq" do
-  version "0.14.0"
+  version "0.15.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.14.0/cq_Darwin_x86_64.tar.gz"
-      sha256 "172cceeea1d8f474c558edbfcb8468d8c2908c09d4aa430078095fed86718a4f"
+      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.15.0/cq_Darwin_x86_64.tar.gz"
+      sha256 "11860aa822f424992bef1e8724aa7917dc88517db7cd505c714ba76a6fcfbf5f"
     end
     on_arm do
-      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.14.0/cq_Darwin_arm64.tar.gz"
-      sha256 "c6096e11df08bc0557eae8b46064af14ae3a1063a64f4f8d2581aa6700e05dc7"
+      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.15.0/cq_Darwin_arm64.tar.gz"
+      sha256 "8e9bcb57156d925a5f66e055ab0bfd18003b0f9781b345996ccb7e5dd7d14f67"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.14.0/cq_Linux_x86_64.tar.gz"
-      sha256 "8881d6ba91aa04efc493a6f6c97701961a03d429c78b97e29d45e91db445b286"
+      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.15.0/cq_Linux_x86_64.tar.gz"
+      sha256 "c65602fdb961bb4f6e1e38468b6ac079a624ee10b0823f8055e5531ebc6e0c1d"
     end
     on_arm do
-      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.14.0/cq_Linux_arm64.tar.gz"
-      sha256 "1bb332fc31a85a8dc190f539c8d1f8475a045bb5ea465311716a34a672a3653b"
+      url "https://github.com/mozilla-ai/cq/releases/download/cli/v0.15.0/cq_Linux_arm64.tar.gz"
+      sha256 "ce0091ff18aac5badb0b402b5eb8c675b51dfcf102a16022b1deb9e41c0fd74c"
     end
   end
 
