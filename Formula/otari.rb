@@ -6,8 +6,8 @@ class Otari < Formula
 
   desc "Agent-side CLI for the Otari LLM gateway: Claude Code gates and usage import"
   homepage "https://github.com/mozilla-ai/otari"
-  url "https://github.com/mozilla-ai/otari/releases/download/v0.14.1/otari_agent-0.14.1.tar.gz"
-  sha256 "e955883ceeffffda9fab23254f8cce4dd33c60cdea392cd27d7a95e6d7cfddcc"
+  url "https://github.com/mozilla-ai/otari/releases/download/v0.15.0/otari_agent-0.15.0.tar.gz"
+  sha256 "317a6446f842b030b7bf3221d502db67cb90188b982f7b947091c07d3f31c9e6"
   license "Apache-2.0"
 
   livecheck do
@@ -52,11 +52,6 @@ class Otari < Formula
   resource "idna" do
     url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
     sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
-  end
-
-  resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/82/ed/0301aeeac3e5353ef3d94b6ec08bbcabd04a72018415dcb29e588514bba8/python_dotenv-1.2.2.tar.gz"
-    sha256 "2c371a91fbd7ba082c2c1dc1f8bf89ca22564a087c2c287cd9b662adde799cf3"
   end
 
   resource "pyyaml" do
