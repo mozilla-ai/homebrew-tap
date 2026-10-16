@@ -6,8 +6,8 @@ class Otari < Formula
 
   desc "Agent-side CLI for the Otari LLM gateway: Claude Code gates and usage import"
   homepage "https://github.com/mozilla-ai/otari"
-  url "https://github.com/mozilla-ai/otari/releases/download/v0.26.0/otari_agent-0.26.0.tar.gz"
-  sha256 "2184dff1bd20ce80c8e641e7abe70590ac25179f0ecbe52cf848d762dcc5032e"
+  url "https://github.com/mozilla-ai/otari/releases/download/v0.27.0/otari_agent-0.27.0.tar.gz"
+  sha256 "3586200c30f23e53740c99faf82f0906d02d18efedfff78ed7aa8bdb08d7004e"
   license "Apache-2.0"
 
   livecheck do
