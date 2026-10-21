@@ -6,8 +6,8 @@ class Otari < Formula
 
   desc "Agent-side CLI for the Otari LLM gateway: Claude Code gates and usage import"
   homepage "https://github.com/mozilla-ai/otari"
-  url "https://github.com/mozilla-ai/otari/releases/download/v0.30.1/otari_agent-0.30.1.tar.gz"
-  sha256 "883aa9039d195a34af0d925ae1e249facae14a718d3b8f09000548e5241ca1c1"
+  url "https://github.com/mozilla-ai/otari/releases/download/v0.31.0/otari_agent-0.31.0.tar.gz"
+  sha256 "28649e7400b033c71f8d26c713453cdccf87e0b0fb082fb48a47d4bb2ad02c97"
   license "Apache-2.0"
 
   livecheck do
@@ -25,8 +25,8 @@ class Otari < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz"
-    sha256 "e887ab5cee78ea814d3472169153c2d12cd43b14bd03329a39a9c6e2e80bfba7"
+    url "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz"
+    sha256 "035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae"
   end
 
   resource "click" do
