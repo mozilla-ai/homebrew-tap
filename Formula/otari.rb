@@ -1,13 +1,13 @@
-# Rendered by scripts/homebrew_formula.py at release (otari-homebrew.yml) and
-# pushed to mozilla-ai/homebrew-tap as Formula/otari.rb. Edit this template,
-# never the tap's copy.
+# Rendered by scripts/homebrew_formula.py at release (otari-homebrew-build.yml)
+# and pushed to mozilla-ai/homebrew-tap as Formula/otari.rb (otari-homebrew.yml).
+# Edit this template, never the tap's copy.
 class Otari < Formula
   include Language::Python::Virtualenv
 
   desc "Agent-side CLI for the Otari LLM gateway: Claude Code gates and usage import"
   homepage "https://github.com/mozilla-ai/otari"
-  url "https://github.com/mozilla-ai/otari/releases/download/v0.31.1/otari_agent-0.31.1.tar.gz"
-  sha256 "01bd237c3876945dd3813f1075ef431e070c26fe374f51634c5c1122afc490c1"
+  url "https://github.com/mozilla-ai/otari/releases/download/v0.32.0/otari_agent-0.32.0.tar.gz"
+  sha256 "29138b3178edb033920a62bb86ffa2ead637555d207ebaba2d3a0dfdde25507e"
   license "Apache-2.0"
 
   livecheck do
