@@ -4,10 +4,10 @@
 class Otari < Formula
   include Language::Python::Virtualenv
 
-  desc "Agent-side CLI for the Otari LLM gateway: Claude Code gates and usage import"
+  desc "Agent-side CLI for the Otari AI gateway: Claude Code gates and usage import"
   homepage "https://github.com/mozilla-ai/otari"
-  url "https://github.com/mozilla-ai/otari/releases/download/v0.37.0/otari_agent-0.37.0.tar.gz"
-  sha256 "edc9a8c84a34470517c0ed845375b8c38e3ad879fce6316d6e4a1b0bbcead3ad"
+  url "https://github.com/mozilla-ai/otari/releases/download/v0.38.0/otari_agent-0.38.0.tar.gz"
+  sha256 "be0b20fd46dd90e5bc5701aad403067b4ce0cb548edacd19328156e575648e9b"
   license "Apache-2.0"
 
   livecheck do
